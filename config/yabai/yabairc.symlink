@@ -1,0 +1,28 @@
+#!/usr/bin/env sh
+
+# global settings
+yabai -m config layout bsp 
+
+# bsp system preferences
+yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app="^Spotify$" manage=off
+yabai -m rule --add app="^Docker" manage=off 
+yabai -m rule --add app="^System" manage=off 
+yabai -m rule --add app="^Rambox" manage=off 
+yabai -m rule --add app="^App" manage=off 
+yabai -m rule --add app="^TextEdit" manage=off 
+yabai -m rule --add app="^Preview" manage=off 
+yabai -m rule --add app="^Notion" manage=off 
+yabai -m rule --add app="^Numbers" manage=off 
+yabai -m rule --add app="^Obsidian" manage=off 
+yabai -m rule --add app="^Affinity" manage=off 
+
+#
+#
+# move some apps automatically to specific spaces
+yabai -m rule --add app="^iterm2$" space=1
+yabai -m rule --add app="^Code$" space=2
+yabai -m rule --add app="^Obsidian$" space=3
+yabai -m rule --add app="^Docker" space=3
+yabai -m rule --add app="^Safari$" space=4
+yabai -m rule --add app="^Spotify$" space=5
