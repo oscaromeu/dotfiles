@@ -30,5 +30,7 @@ yabai -m rule --add app="^iterm2$" space=1
 yabai -m rule --add app="^Code$" space=2
 yabai -m rule --add app="^Obsidian$" space=3
 yabai -m rule --add app="^Docker" space=3
+yabai -m rule --add app="^Orb" space=3
 yabai -m rule --add app="^Safari$" space=4
-yabai -m rule --add app="^Spotify$" space=5
+yabai -m rule --add app="^Arc" space=4
+yabai -m rule --add app="^Spotify$" space=6
